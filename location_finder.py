@@ -2,7 +2,7 @@
 import googlemaps
 import pandas as pd
 
-gmaps = googlemaps.Client(key='AIzaSyCclbUYGNjrpIZ6Rgur6M0X8NN8-d6kqN4')
+gmaps = googlemaps.Client(key='')
 
 train_demographics = pd.read_csv('traindemographics.csv')
 test_demographics = pd.read_csv('testdemographics.csv')
